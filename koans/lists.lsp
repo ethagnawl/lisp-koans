@@ -14,7 +14,7 @@
 
 
 ;; based on python koans 'about_lists.py'
-;; based also on "Lisp 3rd addition" ch. 17. "List storage, surgery and reclamation"
+;; based also on "Lisp 3rd Edition" ch. 17. "List storage, surgery and reclamation"
 
 
 (define-test test-creating-lists
@@ -65,7 +65,7 @@
 
 
 (define-test test-append
-    "append attatches one list ot the end of another."
+    "append attaches one list to the end of another."
   (assert-equal '(:a :b :c) (append '(:a :b) '(:c)))
 
   (let ((abc '(:a :b :c))
